@@ -84,7 +84,7 @@ public class MotoDBManager {
 	}
 
 	public List<Motorcycle> getAllMotorcycle() {
-		List<Motorcycle> motorcycle = new ArrayList<Motorcycle>();
+		List<Motorcycle> MotoCatalog = new ArrayList<Motorcycle>();
 
 		try {
 			ResultSet rs = getMotorcycleStmt.executeQuery();
@@ -92,11 +92,11 @@ public class MotoDBManager {
 			while(rs.next()) {
 				
 				if(rs.getString("platforms").equalsIgnoreCase("pc"))
-					games.add(new Game(rs.getString("title"), rs.getInt("price"),Platforms.PC));
+					rs.add(new Motorcycle(rs.getString("brand"), rs.getString("model"), rs.getInt("price"), rs.getInt("yearOfManufacure")));
 				else if(rs.getString("platforms").equalsIgnoreCase("xbox360"))
-					games.add(new Game(rs.getString("title"), rs.getInt("price"),Platforms.XBOX360));
+					rs.add(new Motorcycle(rs.getString("brand"), rs.getString("model"), rs.getInt("price"), rs.getInt("yearOfManufacure")));
 				else if(rs.getString("platforms").equalsIgnoreCase("ps3"))
-					games.add(new Game(rs.getString("title"), rs.getInt("price"),Platforms.PS3));
+					rs.add(new Motorcycle(rs.getString("brand"), rs.getString("model"), rs.getInt("price"), rs.getInt("yearOfManufacure")));
 				
 			}
 
