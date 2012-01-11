@@ -1,5 +1,5 @@
 package project;
 
 public enum Brand {
-	Honda, Yamaha, Suzuki, Ducati, Aprillia, Kawasaki
+	Honda, Yamaha, Suzuki, Ducati, Aprillia, Kawasaki, BMW
 }
