@@ -115,7 +115,7 @@ public class MotoDBManager {
 				if (rs.getString("brand").equals("BMW"))
 					brand = Brand.BMW;
 				
-				Motorcycles.add(new Motorcycle(rs.getString("brand"),rs.getString("model"),rs.getInt("price"),rs.getInt("yearOfManufacture")));
+				Motorcycles.add(new Motorcycle(brand,rs.getString("model"),rs.getInt("price"), rs.getInt("yearOfManufacture")));
 			}
 
 		} 
