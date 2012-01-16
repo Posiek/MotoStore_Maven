@@ -60,7 +60,7 @@ public class MotoDBManager {
 			
 			deleteAllMotorcycleStmt = conn.prepareStatement("DELETE FROM Motorcycle");
 			
-			findMotorcycleByModelStmt = conn.prepareStatement("SELECT id FROM Motorcycle WHERE name = ?");
+			findMotorcycleByModelStmt = conn.prepareStatement("SELECT id FROM Motorcycle WHERE model = ?");
 			
 			findMotorcycleByBrandStmt = conn.prepareStatement("SELECT id FROM Motorcycle WHERE brand = ?");
 			
