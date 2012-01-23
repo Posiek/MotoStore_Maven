@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.011" errors="0" skipped="17" tests="17" name="tests.ClientTest">
+<testsuite failures="0" time="0.009" errors="0" skipped="17" tests="17" name="tests.ClientTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/opt/devel/jdk1.6.0_27/jre/lib/i386"/>
@@ -19,7 +19,7 @@
     <property name="basedir" value="/home/student/git/MotoStore_Maven"/>
     <property name="java.endorsed.dirs" value="/opt/devel/jdk1.6.0_27/jre/lib/endorsed"/>
     <property name="os.arch" value="i386"/>
-    <property name="surefire.real.class.path" value="/home/student/git/MotoStore_Maven/target/surefire/surefirebooter5771869560450879660.jar"/>
+    <property name="surefire.real.class.path" value="/home/student/git/MotoStore_Maven/target/surefire/surefirebooter3200222691292129516.jar"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="line.separator" value="
 "/>
@@ -42,7 +42,7 @@
     <property name="java.vm.specification.version" value="1.0"/>
     <property name="sun.arch.data.model" value="32"/>
     <property name="java.home" value="/opt/devel/jdk1.6.0_27/jre"/>
-    <property name="sun.java.command" value="/home/student/git/MotoStore_Maven/target/surefire/surefirebooter5771869560450879660.jar /home/student/git/MotoStore_Maven/target/surefire/surefire8624449145193795086tmp /home/student/git/MotoStore_Maven/target/surefire/surefire7546465042465185786tmp"/>
+    <property name="sun.java.command" value="/home/student/git/MotoStore_Maven/target/surefire/surefirebooter3200222691292129516.jar /home/student/git/MotoStore_Maven/target/surefire/surefire4849964943327790133tmp /home/student/git/MotoStore_Maven/target/surefire/surefire7278330674612985914tmp"/>
     <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.language" value="pl"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
@@ -57,55 +57,55 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0.021" classname="tests.ClientTest" name="testClient">
+  <testcase time="0.018" classname="tests.ClientTest" name="testClient">
     <skipped/>
   </testcase>
-  <testcase time="0.021" classname="tests.ClientTest" name="testAddMotorcycle">
+  <testcase time="0.018" classname="tests.ClientTest" name="testAddMotorcycle">
     <skipped/>
   </testcase>
-  <testcase time="0.021" classname="tests.ClientTest" name="testDeleteMotorcycle">
+  <testcase time="0.018" classname="tests.ClientTest" name="testDeleteMotorcycle">
     <skipped/>
   </testcase>
-  <testcase time="0.021" classname="tests.ClientTest" name="testDeleteAllMotorcycle">
+  <testcase time="0.019" classname="tests.ClientTest" name="testDeleteAllMotorcycle">
     <skipped/>
   </testcase>
-  <testcase time="0.022" classname="tests.ClientTest" name="testEditMotorcyclePrice">
+  <testcase time="0.019" classname="tests.ClientTest" name="testEditMotorcyclePrice">
     <skipped/>
   </testcase>
-  <testcase time="0.022" classname="tests.ClientTest" name="testEditMotorcycleYearOfManufacture">
+  <testcase time="0.019" classname="tests.ClientTest" name="testEditMotorcycleYearOfManufacture">
     <skipped/>
   </testcase>
-  <testcase time="0.022" classname="tests.ClientTest" name="testFindAllMotorcycleByBrand">
+  <testcase time="0.019" classname="tests.ClientTest" name="testFindAllMotorcycleByBrand">
     <skipped/>
   </testcase>
-  <testcase time="0.023" classname="tests.ClientTest" name="testFindAllMotorcycleByModel">
+  <testcase time="0.019" classname="tests.ClientTest" name="testFindAllMotorcycleByModel">
     <skipped/>
   </testcase>
-  <testcase time="0.023" classname="tests.ClientTest" name="testFindAllMotorcycleByYearOfManufacture">
+  <testcase time="0.019" classname="tests.ClientTest" name="testFindAllMotorcycleByYearOfManufacture">
     <skipped/>
   </testcase>
-  <testcase time="0.023" classname="tests.ClientTest" name="testPrintClient">
+  <testcase time="0.019" classname="tests.ClientTest" name="testPrintClient">
     <skipped/>
   </testcase>
-  <testcase time="0.023" classname="tests.ClientTest" name="testPrintMotoCatalog">
+  <testcase time="0.02" classname="tests.ClientTest" name="testPrintMotoCatalog">
     <skipped/>
   </testcase>
-  <testcase time="0.023" classname="tests.ClientTest" name="testGetFirstName">
+  <testcase time="0.02" classname="tests.ClientTest" name="testGetFirstName">
     <skipped/>
   </testcase>
-  <testcase time="0.023" classname="tests.ClientTest" name="testSetFirstName">
+  <testcase time="0.02" classname="tests.ClientTest" name="testSetFirstName">
     <skipped/>
   </testcase>
-  <testcase time="0.024" classname="tests.ClientTest" name="testGetSurname">
+  <testcase time="0.02" classname="tests.ClientTest" name="testGetSurname">
     <skipped/>
   </testcase>
-  <testcase time="0.024" classname="tests.ClientTest" name="testSetSurname">
+  <testcase time="0.02" classname="tests.ClientTest" name="testSetSurname">
     <skipped/>
   </testcase>
-  <testcase time="0.024" classname="tests.ClientTest" name="testGetMotoCatalog">
+  <testcase time="0.02" classname="tests.ClientTest" name="testGetMotoCatalog">
     <skipped/>
   </testcase>
-  <testcase time="0.024" classname="tests.ClientTest" name="testSetMotoCatalog">
+  <testcase time="0.02" classname="tests.ClientTest" name="testSetMotoCatalog">
     <skipped/>
   </testcase>
 </testsuite>

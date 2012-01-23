@@ -8,7 +8,7 @@ import java.util.*;
 import project.Brand;
 import project.Motorcycle;
 
-import szwedi.project.*;
+import project.*;
 
 public class ClientMotorcycleDBManager {
 
