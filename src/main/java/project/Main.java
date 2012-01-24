@@ -29,7 +29,7 @@ public class Main {
 
 //		cl.deleteMotorcycle(cl.findAllMotorcycleByModel("CBR 600RR"));
 		
-		System.out.println("\n**********----------**********");
+		System.out.println("\n_______________________");
 
 		ClientDBManager dbClient = new ClientDBManager();
 
@@ -41,7 +41,7 @@ public class Main {
 		}
 
 
-		System.out.println("**********----------**********");
+		System.out.println("\n_______________________");
 
 		MotoDBManager dbMoto = new MotoDBManager();
 
