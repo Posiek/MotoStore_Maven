@@ -23,6 +23,7 @@ public class ClientMotorcycleDBManager {
 	{
 		try 
 		{
+			/*
 			Properties props = new Properties();
 			
 			try {
@@ -30,9 +31,10 @@ public class ClientMotorcycleDBManager {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
+			*/
 			
 			conn = DriverManager
-					.getConnection(props.getProperty("url"));
+					.getConnection("jdbc:hsqldb:hsql://localhost/workdb");
 
 			stmt = conn.createStatement();
 			boolean clientTableExists = false;
@@ -59,7 +61,7 @@ public class ClientMotorcycleDBManager {
 			
 			deleteAllClientMotorcycleStmt = conn.prepareStatement("DELETE FROM clientMotorcycle");
 			
-			getMotorcycleClientStmt = conn.prepareStatement("SELECT Motorcycle.brand, Motorcycle.model, Motorcycle.price, Motorcycle.yearOfManufacure FROM Motorcycle, ClientMotorcycle WHERE client_id = ? and motorcycle_id = Motorcycle.id");
+			getMotorcycleClientStmt = conn.prepareStatement("SELECT Motorcycle.brand, Motorcycle.model, Motorcycle.price, Motorcycle.yearOfManufacture FROM Motorcycle, ClientMotorcycle WHERE client_id = ? and motorcycle_id = Motorcycle.id");
 
 		} 
 		catch (SQLException e) 

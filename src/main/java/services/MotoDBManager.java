@@ -23,6 +23,7 @@ public class MotoDBManager {
 	{
 		try 
 		{
+			/*
 			Properties props = new Properties();
 			
 			try {
@@ -30,9 +31,10 @@ public class MotoDBManager {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
+			*/
 			
 			conn = DriverManager
-					.getConnection(props.getProperty("url"));
+					.getConnection("jdbc:hsqldb:hsql://localhost/workdb");
 
 			stmt = conn.createStatement();
 			boolean MotorcycleTableExists = false;
@@ -189,18 +191,7 @@ public class MotoDBManager {
 			e.printStackTrace();
 		}
 	}
-	
-	public void printGameWithCondition(List<Motorcycle> motoCatalog,Condition condition)
-	{
-		for (Motorcycle motorcycle : motoCatalog)
-		{
-			if (condition.getCondition(motorcycle))
-			{
-				System.out.println("Model: " + motorcycle.getModel() + "\tBrand: " + motorcycle.getBrand() + "\tReleasedYear: " + motorcycle.getYearOfManufacture() + "\tPrice: " + motorcycle.getPrice());
-			}
-		}
-	}
-	
+
 
 
 }

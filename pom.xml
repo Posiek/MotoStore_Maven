@@ -68,7 +68,7 @@
 							</descriptorRefs>
 							<archive>
 								<manifest>
-									<mainClass>szwedi.project.Main</mainClass>
+									<mainClass>project.Main</mainClass>
 								</manifest>
 							</archive>
 						</configuration>
